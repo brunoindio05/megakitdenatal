@@ -78,7 +78,7 @@
   .urgency-ribbon{border-bottom:5px solid transparent;border-image:repeating-linear-gradient(135deg,#fff 0 10px,#C8102E 10px 20px) 1;}
   
   /* ===== HERO ===== */
-  .hero{padding:56px 0 40px;text-align:center;background:linear-gradient(180deg,#FDEDE3 0%,#FFF6EC 100%);}
+  .hero{padding:56px 20px 40px;text-align:center;background:linear-gradient(180deg,#FDEDE3 0%,#FFF6EC 100%);}
   .hero h1{
     font-size:clamp(24px,4.6vw,42px);
     font-weight:800;color:var(--ink);
@@ -95,7 +95,7 @@
     .hero h1 { font-size: 22px; line-height: 1.3; padding: 0 8px; }
   }
   .cover-image-wrapper { max-width: 480px; margin: 24px auto; background: transparent; }
-  .cover-image { width: 100%; aspect-ratio: 1 / 1; display: block; border: none; border-radius: 0; }
+  .cover-image { width: 100%; aspect-ratio: 1 / 1; display: block; border: none; border-radius: 20px; }
 
   .hero-checklist-block { max-width: 480px; margin: 24px auto; text-align: center; }
   .hero-checklist-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 10px; }
@@ -444,6 +444,8 @@
   @media(max-width:600px){
     .social-proof{top:12px;right:12px;left:auto;max-width:240px;width:calc(100% - 24px);}
   }
+  .ver-mais-btn{background:none;border:none;padding:4px 0;margin-left:2px;font:inherit;font-weight:800;color:var(--red);text-decoration:underline;cursor:pointer;}
+  .ver-mais-btn:focus-visible{outline:2px solid var(--red);outline-offset:2px;border-radius:4px;}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -583,24 +585,14 @@ src="https://www.facebook.com/tr?id=1671460594652619&ev=PageView&noscript=1"
         <p>Transforme os projetos em produtos físicos e ofereça aos seus clientes.</p>
       </div>
       <div class="porque-card">
-        <span class="icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg></span>
-        <h3>Diversifique sua produção</h3>
-        <p>Caixas, enfeites, luminárias, vilas, decoração de mesa e muito mais.</p>
-      </div>
-      <div class="porque-card">
         <span class="icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></span>
         <h3>Acesso imediato</h3>
         <p>Após a confirmação da compra, você recebe as instruções para acessar seus arquivos.</p>
       </div>
       <div class="porque-card">
         <span class="icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9l1.5-5h13L20 9"/><path d="M4 9h16v11H4z"/><path d="M9 20v-6h6v6"/></svg></span>
-        <h3>Para artesãos e pequenos negócios</h3>
+        <h3>Para artesãos e empresas de corte a laser</h3>
         <p>Amplie seu catálogo sem precisar criar cada projeto do zero.</p>
-      </div>
-      <div class="porque-card">
-        <span class="icon"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></span>
-        <h3>Garantia de 7 dias</h3>
-        <p>Conheça o material com tranquilidade, sem assumir todo o risco.</p>
       </div>
     </div>
   </div>
@@ -613,7 +605,7 @@ src="https://www.facebook.com/tr?id=1671460594652619&ev=PageView&noscript=1"
       <span class="pack-eyebrow">O que vem no kit</span>
       <h2>Como é o seu produto por dentro</h2>
       <ul class="pack-checklist">
-        <li><span class="check">✓</span><span><strong>+250 projetos</strong> de enfeites a caixas, luminárias e vilas.</span></li>
+        <li><span class="check">✓</span><span><strong>+250 projetos</strong> de enfeites a caixas, luminárias e vilas. Entre eles: Castiçais, Cata-ventos, Flocos de Neve, Renas de Natal, Animais de Natal, Cafés do Advento, Estrelas de Natal, Decorações de Natal, Calendários do Advento, Chocolates do Advento<span class="ver-mais-curto"> e muito mais.</span><span class="ver-mais-extra" id="projetos-extra" hidden>, Enfeites de Natal 3D, Decorações de papel 3D, Enfeites de papel 3D, Ornamentos de acrílico 1, Ornamentos de acrílico 2, Coroa do Advento 1, Coroa do Advento 2, Luz noturna de 10 anjos, Balões de Ar Quente 3D de Natal, Enfeites de Natal em formato de casa 3D, Castiçais de Natal em Formato de Bloco para Calendário do Advento 1, Castiçais de Natal em Formato de Bloco para o Advento 2, Calendário do Advento de Natal com 10 itens, Prendedores de sacolas de Natal, Arranjo de mesa com 10 velas natalinas, Castiçais de Natal, Carimbos de Biscoito de Natal 1, Carimbos de Biscoito de Natal 2, Cartões de Natal com o gato dos sonhos, Enfeites de Natal para a família 1, Enfeites de Natal para a família 2, Faixas de Natal em Feltro para Pendurar, Lanternas de Natal 1, Lanternas de Natal 2, Guirlandas de Natal 1, Guirlandas de Natal 2, Decorações de Natal para Pendurar 1, Enfeites de Natal para pendurar 2, Caixa de Correio de Natal, Anéis de Guardanapo de Natal 1, Anéis de Guardanapo de Natal 2, Luzes noturnas de Natal, Enfeites de Natal 1, Enfeites de Natal 2, Enfeites de Natal com luz, Decorações de Renas para Vasos de Plantas no Natal, Caixas de sombra de Natal, Luminárias Noturnas de Natal com Sombra, Enfeites de suéter natalino, Árvores de Natal 1, Árvores de Natal 2, Prateleiras para árvore de Natal 1, Prateleiras para árvore de Natal 2, Vilas de Natal Advento, Suportes Iluminados para Vila de Natal 1, Suportes Iluminados para Vila de Natal 2, Luzes noturnas para vila de Natal, Decorações de parede de Natal 1, Decorações de parede de Natal 2, Decorações de parede de Natal 3, Jogos americanos de madeira para o Natal, Fios de Natal em pé, Meias de Natal de Feltro, Porta-talheres de feltro, Canto da porta dourada, Porta-velas natalino de 10 camadas, Ideias minimalistas de decoração natalina em madeira e branco, Bandeja de mosaico, Contagem regressiva para o Natal com o Presépio 1, Contagem regressiva para o Natal com o Presépio 2, Banners personalizados “Papai Noel, por favor, pare aqui”, Enfeites de porta-retratos, Vasos de plantas em forma de rena, Decorações Reversíveis para Casa com Tema de Halloween e Natal, Câmeras do Papai Noel, Chaves mágicas do Papai Noel, Cena de noite silenciosa, Luz noturna da vila 1, Luz noturna da vila 2, Decorações de Natal de Madeira em Formato de Trenó.</span> <button type="button" class="ver-mais-btn" aria-expanded="false" aria-controls="projetos-extra">ver mais...</button></span></li>
         <li><span class="check">✓</span><span><strong>Arquivos para corte e gravação</strong>: linha vermelha é corte e linha preta é gravação.</span></li>
         <li><span class="check">✓</span><span><strong>Catálogo em PDF</strong> para facilitar a escolha dos projetos.</span></li>
         <li><span class="check">✓</span><span><strong>Formatos incluídos</strong>: CDR, SVG, PNG, DXF, PDF e EPS (varia conforme o projeto).</span></li>
@@ -964,6 +956,21 @@ src="https://www.facebook.com/tr?id=1671460594652619&ev=PageView&noscript=1"
 
   // ---- Dificultar clonagem casual (não impede clonagem técnica) ----
   document.querySelectorAll('img').forEach(function(img){ img.setAttribute('draggable', 'false'); });
+
+  // ---- Lista de projetos: ver mais / ver menos ----
+  (function(){
+    var btn = document.querySelector('.ver-mais-btn');
+    var extra = document.getElementById('projetos-extra');
+    var curto = document.querySelector('.ver-mais-curto');
+    if(!btn || !extra || !curto) return;
+    btn.addEventListener('click', function(){
+      var aberto = btn.getAttribute('aria-expanded') === 'true';
+      extra.hidden = aberto;
+      curto.hidden = !aberto;
+      btn.setAttribute('aria-expanded', aberto ? 'false' : 'true');
+      btn.textContent = aberto ? 'ver mais...' : 'ver menos';
+    });
+  })();
 </script>
 
 
